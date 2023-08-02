@@ -6,6 +6,7 @@
 
 body {
   background-image: url("bg-imagee.png");
+  background-repeat: no-repeat;
   font-family: "Fira Code", sans-serif;
 }
 

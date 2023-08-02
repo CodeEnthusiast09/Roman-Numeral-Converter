@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bg-imagee.png");
+  font-family: "Fira Code", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-height: 454px;
+  margin: 100px auto 45px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 25px;
+}
+
+#num-input {
+  width: 100%;
+  height: 33px;
+  font-size: 1em;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0 0;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+#input-error {
+  margin-bottom: 25px;
+}
+#reset {
+  width: 90px;
+  padding: 5px;
+  height: 39px;
+  border: none;
+  background-color: rgba(90, 139, 197, 255);
+  color: white;
+  border-radius: 9px;
+}
+
+#convert {
+  width: 90px;
+  height: 39px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(90, 139, 197, 255);
+  color: white;
+  border-radius: 9px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.output-header {
+  margin-bottom: 10px;
+}
+
+.output {
+  width: 100%;
+  height: 33px;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+#output {
+  width: 200px;
+}
+
+.attribution {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(12, 61, 117);
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "old english text mt";
+}

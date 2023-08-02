@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <p id="input-header">Number to convert:</p>
+        <input
+          type="text"
+          name="number"
+          id="num-input"
+          oninput="numValidate()"
+          on="converter()"
+          placeholder="Enter a number"
+          maxlength="10000"
+          min="1"
+          required
+        />
+        <p id="input-error"></p>
+      </div>
+      <div class="buttons">
+        <button id="reset" onclick="clearInput()">Reset</button>
+        <button id="convert" onclick="converter()">Convert</button>
+      </div>
+      <p class="output-header">Value in roman numerals:</p>
+      <div class="output">
+        <p id="output"></p>
+      </div>
+    </div>
+    <div class="attribution">
+      <p>
+        Coded by
+        <a href="https://github.com/CodeEnthusiast09">CodeEnthusiast IX</a>.
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

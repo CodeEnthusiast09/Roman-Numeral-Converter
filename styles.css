@@ -10,13 +10,26 @@ body {
   font-family: "Fira Code", sans-serif;
 }
 
-.container {
-  width: 90%;
-  max-height: 454px;
-  margin: 100px auto 45px;
-  padding: 20px;
-  background-color: rgb(255, 255, 255, 0.6);
-  border-radius: 25px;
+@media (min-width: 1024px) {
+  .container {
+    width: 40%;
+    max-height: 454px;
+    margin: 100px auto 104px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    width: 90%;
+    max-height: 454px;
+    margin: 100px auto 45px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 25px;
+  }
 }
 
 #num-input {
@@ -34,6 +47,7 @@ body {
 #input-error {
   margin-bottom: 25px;
 }
+
 #reset {
   width: 90px;
   padding: 5px;
@@ -72,12 +86,17 @@ body {
   border-radius: 5px;
   padding: 5px;
 }
+
 #output {
   width: 200px;
 }
 
 .attribution {
   text-align: center;
+}
+
+span {
+  font-size: 1.2rem;
 }
 
 a {
